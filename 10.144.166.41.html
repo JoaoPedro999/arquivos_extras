@@ -11,6 +11,7 @@ body {
     background-color: #1a1a1a;
     margin: 0;
     padding: 0;
+    font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
     display: flex;
     flex-direction: column;
@@ -25,6 +26,7 @@ h1 {
     margin-bottom: 50px;
     font-size: 36px;
     color: #ffffff;
+    font-weight: bold;
 }
 
 .container {
@@ -60,6 +62,9 @@ a img {
     max-height: 100%;
     object-fit: contain;
 }
+.todos{
+    display: inline-block;
+}
 
 @media screen and (max-width: 768px) {
     a {
@@ -75,11 +80,13 @@ a img {
 </style>
 </head>
 <body>
-<h1>Arquivos extras</h1>
-<a href="http://10.144.166.41/download/code_1.81.1-1691620686_amd64.deb"><img src="vs.png" class="vs"></a><br>
-<a href="http://10.144.166.41/download/GitHubDesktop-linux-amd64-3.2.7-linux2.deb"><img src="git.png" class="git"></a><br>
-<a href="http://10.144.166.41/download/google-chrome-stable_current_amd64.deb"><img src="google.png" class="google"></a><br> 
-<a href="http://10.144.166.41/download/nodejs-env.tar.xz"><img src="nred.png" class="noder"></a><br> 
+<h1>ARQUIVOS EXTRAS</h1>
+<div class="todos">
+<a href="http://10.144.166.41/download/code_1.81.1-1691620686_amd64.deb"><img src="vs.png" class="vs"></a>
+<a href="http://10.144.166.41/download/GitHubDesktop-linux-amd64-3.2.7-linux2.deb"><img src="git.png" class="git"></a>
+<a href="http://10.144.166.41/download/google-chrome-stable_current_amd64.deb"><img src="google.png" class="google"></a>
+<a href="http://10.144.166.41/download/nodejs-env.tar.xz"><img src="nred.png" class="noder"></a>
+</div>
 
 
 </body></html>
